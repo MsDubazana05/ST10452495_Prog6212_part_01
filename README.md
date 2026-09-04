@@ -15,3 +15,13 @@ South Africa has a rich culture of road races, marathons, cycling tours, charity
 RaceDay aims to digitize and streamline event management by providing a modern web-based platform that improves event administration, participant engagement, and access to event information.
 
 ---
+
+## 🎯 Project Goals
+
+- Digitize event registration and management.
+- Improve communication between organisers and participants.
+- Provide centralized event and performance tracking.
+- Enable real-time access to event information.
+- Support modern software development practices using APIs, cloud technologies, and CI/CD pipelines.
+
+---

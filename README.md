@@ -200,3 +200,24 @@ RaceDay will implement Continuous Integration and Continuous Deployment (CI/CD) 
 - Version control integration
 - Release management
 
+- 
+## 📋 Project Deliverables
+
+### Part 1
+- Requirements Analysis
+- Entity Relationship Diagram (ERD)
+- Database Design
+- SQL Server Database Implementation
+
+### Part 2
+- RESTful API Development
+- Authentication and Authorization
+- CRUD Operations
+
+### Part 3
+- Frontend Development
+- Cloud Deployment
+- Docker Containerization
+- CI/CD Implementation
+- Final Documentation
+

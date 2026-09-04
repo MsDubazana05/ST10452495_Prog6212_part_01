@@ -221,3 +221,25 @@ RaceDay will implement Continuous Integration and Continuous Deployment (CI/CD) 
 - CI/CD Implementation
 - Final Documentation
 
+- ## 🔮 Future Enhancements
+
+- Mobile Application
+- Online Payment Integration
+- GPS Race Tracking
+- QR Code Event Check-In
+- Live Leaderboards
+- AI-Based Performance Insights
+
+---
+
+## 👨‍💻 Author
+
+**Student:** Your Name  
+**Course:** Diploma in IT Software Development  
+**Institution:** Rosebank College  
+**Project:** RaceDay – Sports Event Management Platform  
+**Year:** 2026
+
+---
+
+

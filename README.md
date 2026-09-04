@@ -161,5 +161,10 @@ These entities will be refined during the database design and ERD development st
 - Cancel registrations
 - View registration status
 
+### Results Management
+- Upload results
+- View results
+- Track performance history
+
 
 

@@ -143,4 +143,23 @@ The system may include the following entities:
 
 These entities will be refined during the database design and ERD development stages.
 
+## 🔐 Functional Requirements
+
+### User Management
+- User registration
+- User login
+- Role-based access control
+
+### Event Management
+- Create events
+- Update events
+- Delete events
+- View event details
+
+### Registration Management
+- Register for events
+- Cancel registrations
+- View registration status
+
+
 

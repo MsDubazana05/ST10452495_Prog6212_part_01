@@ -78,4 +78,11 @@ Administrators can:
 - Event announcements
 - Registration confirmations
 - Schedule updates
-- Results notifications
+- Results notifications.
+
+- ### Reporting
+- Event participation reports
+- Registration summaries
+- Performance analytics
+
+---

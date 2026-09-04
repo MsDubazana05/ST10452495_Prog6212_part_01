@@ -234,7 +234,7 @@ RaceDay will implement Continuous Integration and Continuous Deployment (CI/CD) 
 
 ## 👨‍💻 Author
 
-**Student:** Your Name  
+**Student:** Mandisa Dubazana 
 **Course:** Diploma in IT Software Development  
 **Institution:** Rosebank College  
 **Project:** RaceDay – Sports Event Management Platform  

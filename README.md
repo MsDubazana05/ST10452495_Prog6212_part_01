@@ -128,3 +128,19 @@ Administrators can:
 - GitHub Actions
 - CI/CD Pipelines
 
+- ## 📂 Proposed Database Entities
+
+The system may include the following entities:
+
+- User
+- Participant
+- EventOrganiser
+- Event
+- Category
+- Registration
+- Result
+- Notification
+
+These entities will be refined during the database design and ERD development stages.
+
+

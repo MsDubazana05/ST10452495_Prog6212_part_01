@@ -43,3 +43,10 @@ Participants can:
 - Track registration history.
 - View race results and performance records.
 - Receive event notifications and updates.
+
+- ### Administrator
+Administrators can:
+- Manage platform users.
+- Monitor system performance.
+- Maintain data integrity and security.
+- Generate reports and analytics

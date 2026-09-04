@@ -166,5 +166,24 @@ These entities will be refined during the database design and ERD development st
 - View results
 - Track performance history
 
+- ## ⚡ Non-Functional Requirements
+
+### Performance
+- Fast response times
+- Optimized database queries
+
+### Security
+- Secure authentication
+- Password encryption
+- Role-based permissions
+
+### Scalability
+- Cloud-ready deployment
+- Containerized architecture
+
+### Reliability
+- High system availability
+- Backup and recovery support
+
 
 

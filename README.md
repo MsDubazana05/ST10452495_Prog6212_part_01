@@ -62,4 +62,20 @@ Administrators can:
 ### Category Management
 - Create race categories
 - Define age groups
-- Configure race distances
+- Configure race distances.
+
+- ### Registration Management
+- Participant registration
+- Registration tracking
+- Registration history
+
+### Results Management
+- Record race results
+- Publish official results
+- Maintain performance history
+
+### Notifications
+- Event announcements
+- Registration confirmations
+- Schedule updates
+- Results notifications

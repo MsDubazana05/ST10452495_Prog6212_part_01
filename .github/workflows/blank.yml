@@ -1,0 +1,57 @@
+name: Validate Repository Structure
+
+# Runs on every push and pull request targeting main, plus lets you
+# trigger it manually from the Actions tab (useful for your green-build screenshot).
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  validate-docs-folder:
+    runs-on: ubuntu-latest
+    name: Check /docs folder and required files exist
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Confirm /docs folder exists
+        run: |
+          if [ ! -d "docs" ]; then
+            echo "::error::The /docs folder is missing from the repository root."
+            exit 1
+          fi
+          echo "docs folder found."
+
+      - name: Confirm SQL script is present
+        run: |
+          if ! find docs -maxdepth 1 -iname "*.sql" | grep -q .; then
+            echo "::error::No .sql file found inside /docs. The database script must be committed there."
+            exit 1
+          fi
+          echo "SQL script found:"
+          find docs -maxdepth 1 -iname "*.sql"
+
+      - name: Confirm ERD (PNG or PDF) is present
+        run: |
+          if ! find docs -maxdepth 1 \( -iname "*erd*.png" -o -iname "*erd*.pdf" \) | grep -q .; then
+            echo "::error::No ERD file found inside /docs. Expected a filename containing 'erd' with a .png or .pdf extension."
+            exit 1
+          fi
+          echo "ERD file found:"
+          find docs -maxdepth 1 \( -iname "*erd*.png" -o -iname "*erd*.pdf" \)
+
+      - name: Confirm API endpoint plan (PDF or Markdown) is present
+        run: |
+          if ! find docs -maxdepth 1 \( -iname "*endpoint*.pdf" -o -iname "*endpoint*.md" -o -iname "*api*.pdf" -o -iname "*api*.md" \) | grep -q .; then
+            echo "::error::No API endpoint plan found inside /docs. Expected a filename containing 'endpoint' or 'api' with a .pdf or .md extension."
+            exit 1
+          fi
+          echo "API endpoint plan found:"
+          find docs -maxdepth 1 \( -iname "*endpoint*.pdf" -o -iname "*endpoint*.md" -o -iname "*api*.pdf" -o -iname "*api*.md" \)
+
+      - name: All required files present
+        run: echo "Repository structure validated successfully — /docs contains the ERD, endpoint plan, and SQL script."

@@ -49,4 +49,17 @@ Administrators can:
 - Manage platform users.
 - Monitor system performance.
 - Maintain data integrity and security.
-- Generate reports and analytics
+- Generate reports and analytics.
+
+- ## ✨ Key Features
+
+### Event Management
+- Create events
+- Edit event details
+- Delete or archive events
+- Manage event schedules
+
+### Category Management
+- Create race categories
+- Define age groups
+- Configure race distances

@@ -200,6 +200,8 @@ RaceDay will implement Continuous Integration and Continuous Deployment (CI/CD) 
 - Version control integration
 - Release management
 
+- youtube video Link: https://youtu.be/U0EittHmsJA?si=JuMo6GOQvNzqVKRg
+
 - 
 ## 📋 Project Deliverables
 

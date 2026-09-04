@@ -35,3 +35,11 @@ Organisers can:
 - Manage participant registrations.
 - Publish event results.
 - Monitor event participation statistics.
+
+- ### Participant
+Participants can:
+- Browse upcoming events.
+- Register for sporting events online.
+- Track registration history.
+- View race results and performance records.
+- Receive event notifications and updates.

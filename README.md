@@ -96,3 +96,14 @@ Administrators can:
 - ASP.NET Core Web API
 - Business logic layer
 - Authentication and authorization
+
+- ### Database
+- Microsoft SQL Server
+- Relational database design
+- Data integrity enforcement
+
+### Cloud Infrastructure
+- Azure cloud deployment
+- Containerized services
+- Scalable architecture
+

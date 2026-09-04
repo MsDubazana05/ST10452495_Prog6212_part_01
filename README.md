@@ -85,4 +85,14 @@ Administrators can:
 - Registration summaries
 - Performance analytics
 
----
+-## 🏗 System Architecture
+
+### Frontend
+- Responsive web interface
+- Event browsing and registration
+- Participant dashboard
+
+### Backend
+- ASP.NET Core Web API
+- Business logic layer
+- Authentication and authorization

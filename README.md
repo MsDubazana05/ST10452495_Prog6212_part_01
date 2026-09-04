@@ -25,3 +25,13 @@ RaceDay aims to digitize and streamline event management by providing a modern w
 - Support modern software development practices using APIs, cloud technologies, and CI/CD pipelines.
 
 ---
+
+## 👥 User Roles
+
+### Event Organiser
+Organisers can:
+- Create and manage events.
+- Define event categories and race distances.
+- Manage participant registrations.
+- Publish event results.
+- Monitor event participation statistics.

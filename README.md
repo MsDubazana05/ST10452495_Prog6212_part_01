@@ -107,3 +107,24 @@ Administrators can:
 - Containerized services
 - Scalable architecture
 
+- ## 🛠 Technology Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap / React
+
+### Backend
+- ASP.NET Core Web API
+- C#
+
+### Database
+- Microsoft SQL Server
+
+### DevOps & Cloud
+- Azure
+- Docker
+- GitHub Actions
+- CI/CD Pipelines
+
